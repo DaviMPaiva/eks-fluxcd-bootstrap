@@ -48,7 +48,7 @@ gitops:
     flags:
       owner: "DaviMPaiva"
       repository: "eks-fluxcd-bootstrap"
-      private: 'False'
+      private: "true"
       branch: "demo"
       path: "./clusters/sandbox/"
       namespace: "flux-system"

@@ -46,7 +46,6 @@ gitops:
   flux:
     gitProvider: github
     flags:
-      owner: DaviMPaiva
       repository: eks-fluxcd-bootstrap
       branch: demo
       path: ./clusters/sandbox/

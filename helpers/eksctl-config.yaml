@@ -46,11 +46,12 @@ gitops:
   flux:
     gitProvider: github
     flags:
-      owner: DaviMPaiva
-      repository: eks-fluxcd-bootstrap
-      branch: demo
-      path: ./clusters/sandbox/
-      namespace: flux-system
+      owner: "DaviMPaiva"
+      repository: "eks-fluxcd-bootstrap"
+      private: 'False'
+      branch: "demo"
+      path: "./clusters/sandbox/"
+      namespace: "flux-system"
 managedNodeGroups:
   - name: sandbox-amd64-workers
     instanceType: m5.large
